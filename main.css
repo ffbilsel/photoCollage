@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: inline-block;
+}
+
+input {
+    display: inline-block;
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+input[type="text"], input[type="file"] {
+    margin-bottom: 1rem;
+}
+
+hr:first-of-type {
+    margin-top: 0;
+}
+
+.main-container {
+    padding: 1.5rem 3rem;
+    border: 0.1rem lightblue solid;
+    box-shadow: 0.1rem 0.1rem 0.4rem black;
+    border-radius: 3rem;
+    margin-top: 2rem;
+    height: 100%;
+
+}
+
+.main-container:first-of-type {
+    margin-right: 2rem;
+}
+
+p {
+    display: inline-block;
+}
+
+#images {
+    width: 32px;
+}
+
+#result {
+    margin: 0 auto 1rem;
+    text-align: center;
+}
